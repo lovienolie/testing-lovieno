@@ -1,0 +1,136 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+nav{
+    display: flex;
+    background-color: red;
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li{
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    display: block;
+}
+
+a:hover{
+    background-color: darkred;
+}
+
+header{
+    display: flex;
+    background-color: lightgray;
+}
+
+header .profile{
+    width: 450px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: chocolate;
+}
+
+header .profile img{
+    width: 90%;
+    height: 80%;
+    margin: 20px;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: 10% 5%;
+}
+
+header .title{
+    width: 100%;
+    background-color: lightblue;
+    color: darkblue;
+}
+
+.title .main,.title .sub{
+    display: flex;
+    margin-left: 20px;
+}
+
+header .title .main p{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+header .title .main p span{
+    color: rgb(60, 139, 0);
+}
+
+header .title .sub p{
+    font-size: 15px;
+    font-weight: normal;
+}
+
+section.main{
+    display: flex;
+    flex-direction: column;
+    background-color: lightyellow;
+}
+
+section.main .post1{
+    display: flex;
+}
+
+section.main .post1 img{
+    width: 40%;
+}
+
+section.main .post1 .exp{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Setting Content */
+
+.post1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 20px;
+    border-radius: 20px;
+    object-position: 10% 50%;
+}
+
+section .main h1{
+    margin-left: 20px;
+}
+
+/* Setting Content */
+
+/* Setting Footer */
+
+footer{
+    width: 100%; /* lebar 100 persen*/
+    height: fit-content; /* tinggi menyesuaikan isi (sesuaikan tinggi dengan isi)*/
+    padding-top: 30px; /* jarak dalam atas tambah*/
+    padding-bottom: 30px; /* jarak dalam bawah tambah*/
+    position: sticky; /* posisi lengket, tidak kesana kemari*/
+    bottom: 0; /* atur posisi dari bawah setinggi 0 */
+    background-color: lightgray; /* warna latar belakang abu-abu muda*/
+    color: darkblue; /* warna teks biru tua*/
+    display: flex; /* gunakan flexbox untuk tata letak (di penuhin kanan kiri)*/
+    justify-content: center; /* pusatkan konten secara horizontal sesuai alur*/
+}
+
+/* Setting Footer */
